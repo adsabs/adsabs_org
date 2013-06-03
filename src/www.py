@@ -108,7 +108,7 @@ class other(object):
         pass
     def GET(self):
         """manager of the get requests"""
-        print 'not previous'
+        #print 'not previous'
         #if I don't recognize the URL I redirect to the base
         return web.redirect(base_url, '302 Found')
     
