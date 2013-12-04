@@ -20,7 +20,7 @@ abstract_base_url = base_url + '/adsabs/abs'
 
 
 
-web.config.debug = True
+web.config.debug = False
 
 #urls
 urls = (
@@ -112,8 +112,8 @@ class other(object):
         #if I don't recognize the URL I redirect to the base
         return web.redirect(base_url, '302 Found')
     
-if __name__ == "__main__": 
-    app.run()
+#if __name__ == "__main__": 
+#    app.run()
     
-#to enable wsgi
-#application = app.wsgifunc()
+# to enable wsgi
+application = app.wsgifunc()
