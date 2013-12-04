@@ -16,7 +16,7 @@ from ads import Looker
 #General base URLS
 #ADSLABS
 base_url = 'http://labs.adsabs.harvard.edu'
-abstract_base_url = base_url + '/ui/abs'
+abstract_base_url = base_url + '/adsabs/abs'
 
 
 
